@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Dark theme (default) — an "embedding space" palette: deep indigo-violet
+     with a periwinkle primary and warm coral secondary, evoking a token
+     graph / attention map rather than a plain IDE. */
+  --bg: #0e0b1a;
+  --bg-elevated: #140f24;
+  --surface: #171224;
+  --border: #2a2340;
+  --text: #ece9f5;
+  --muted: #9b93b0;
+  --accent: #7c8cff; /* periwinkle */
+  --accent-2: #ff8b6b; /* warm coral */
+  --ok: #6ee7b7;
+  --accent-a20: rgba(124, 140, 255, 0.2);
+  --accent-a30: rgba(124, 140, 255, 0.3);
+  --accent-a40: rgba(124, 140, 255, 0.4);
+}
+
+.light {
+  --bg: #f7f6fb;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --border: #e3e0ef;
+  --text: #191428;
+  --muted: #635c78;
+  --accent: #5b63e0;
+  --accent-2: #d9603c;
+  --ok: #16915e;
+  --accent-a20: rgba(91, 99, 224, 0.16);
+  --accent-a30: rgba(91, 99, 224, 0.24);
+  --accent-a40: rgba(91, 99, 224, 0.32);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--accent);
+  color: #0b0e14;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Thin scrollbar to match the editor aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+}
+
+.eyebrow {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+.section-pad {
+  padding: 5rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-pad {
+    padding: 7rem 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
