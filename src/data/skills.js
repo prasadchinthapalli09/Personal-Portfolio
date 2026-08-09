@@ -4,26 +4,30 @@
 export const skills = [
   {
     category: "Programming",
-    items: ["Skill 1", "Skill 2", "Skill 3"],
+    items: ["Java", "Python", "JavaScript"],
   },
   {
-    category: "Frontend",
-    items: ["Technology 1", "Technology 2"],
+    category: "Web Development",
+    items: ["HTML", "CSS", "React"],
   },
   {
-    category: "Backend",
-    items: ["Technology 1", "Technology 2"],
+    category: "Data Analytics",
+    items: ["Power BI", "Excel"],
   },
   {
     category: "Database",
-    items: ["Technology 1", "Technology 2"],
+    items: ["SQL", "PostgreSql"],
   },
   {
     category: "AI / ML",
-    items: ["Technology 1", "Technology 2"],
+    items: ["LLM Integration", "Prompt Engineering (schema-aware prompting)"],
   },
   {
     category: "Tools",
-    items: ["Tool 1", "Tool 2", "Tool 3"],
+    items: ["Git/Github", "VS Code", "AI tools(Claude & Open AI)"],
+  },
+  {
+    category: "Deployment Tools",
+    items: ["Vercel", "Render"],
   },
 ];
