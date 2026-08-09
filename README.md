@@ -13,7 +13,7 @@ tabs (`about.jsx`, `projects.jsx`, ...).
 
 - Sticky, blur-on-scroll navbar styled as an editor tab bar with an active-section indicator
 - Animated hero that types out your profile object, terminal-style
-- About, Skills, Resume/Experience timeline, Projects, Certifications, and Contact sections
+- About, Skills, Resume/experience timeline, Projects, Certifications, and Contact sections
 - Animated project filtering by category, with a details modal
 - Certificate viewer that opens PDFs in a new tab and images in a zoomable fullscreen preview
 - Contact form with validation, loading/success/error states, mailto fallback, and optional Formspree integration

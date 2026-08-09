@@ -15,8 +15,8 @@ export default function Resume() {
       <div className="max-w-content mx-auto">
         <SectionHeading
           eyebrow="03 — resume"
-          title="Resume & Experience"
-          description="A quick look at my background, or grab the full PDF."
+          title="Resume & Education"
+          description="A quick look at my Educational background, or grab the full PDF."
         />
 
         <div className="grid md:grid-cols-[1fr_320px] gap-8 items-start">

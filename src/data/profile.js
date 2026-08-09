@@ -2,15 +2,15 @@
 // nothing in src/components should ever contain real personal data.
 
 export const profile = {
-  name: "YOUR_NAME",
-  title: "YOUR_PROFESSIONAL_TITLE",
+  name: "Durga Prasad Chintapalli",
+  title: "Aspiring Data Analyst & Full-Stack Developer",
   tagline: "YOUR_TAGLINE",
-  location: "YOUR_LOCATION",
-  availability: "YOUR_AVAILABILITY", // e.g. "Open to new-grad roles"
+  location: "Visakhapatnam",
+  availability: "Open to new-grad roles", // e.g. "Open to new-grad roles"
 
-  email: "YOUR_EMAIL",
-  github: "YOUR_GITHUB_URL", // leave "" to hide the button
-  linkedin: "YOUR_LINKEDIN_URL", // leave "" to hide the button
+  email: "prasadchinthapalli51@gmail.com",
+  github: "https://github.com/prasadchinthapalli09", // leave "" to hide the button
+  linkedin: "https://www.linkedin.com/in/durga-prasad-chintapalli", // leave "" to hide the button
   twitter: "", // optional — leave "" to hide
   instagram: "", // optional — leave "" to hide
   youtube: "", // optional — leave "" to hide
@@ -18,9 +18,8 @@ export const profile = {
   resume: "/assets/resume/resume.pdf", // leave "" if you don't have one yet
   profileImage: "/assets/images/profile.jpg",
 
-  shortDescription: "YOUR_SHORT_PROFESSIONAL_DESCRIPTION",
-  aboutDescription: "YOUR_ABOUT_DESCRIPTION",
-  contactDescription: "YOUR_CONTACT_DESCRIPTION",
+  aboutDescription: "I'm Durga Prasad Chintapalli, a 2026 B.Tech CSE graduate from Raghu Engineering College, Visakhapatnam. I enjoy turning raw data into clear insights using Python, SQL, and Power BI, and I also build full-stack web applications with the MERN stack. I'm currently looking for opportunities as a Data Analyst or Full Stack Developer where I can apply my skills to real-world problems and keep growing as an engineer.",
+  contactDescription: "I'm actively looking for opportunities in Data Analysis and Full Stack Development. Feel free to reach out for collaborations, internships, or full-time roles — I'll get back to you as soon as possible.",
 
   hero: {
     primaryButton: { label: "View Projects", link: "#projects" },
