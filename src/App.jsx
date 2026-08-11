@@ -6,6 +6,7 @@ import Highlights from "./components/Highlights.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Resume from "./components/Resume.jsx";
+import InternshipsSection from "./components/InternshipsSection.jsx";
 import Projects from "./components/Projects.jsx";
 import Certifications from "./components/Certifications.jsx";
 import Contact from "./components/Contact.jsx";
@@ -24,6 +25,7 @@ export default function App() {
         <About />
         <Skills />
         <Resume />
+        <InternshipsSection />
         <Projects />
         <Certifications />
         <Contact />

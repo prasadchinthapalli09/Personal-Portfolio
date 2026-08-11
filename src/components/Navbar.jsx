@@ -11,6 +11,7 @@ const TABS = [
   { id: "about", label: "About" },
   ...(sections.resume ? [{ id: "resume", label: "Resume" }] : []),
   { id: "projects", label: "Projects" },
+  ...(sections.internships ? [{ id: "internships", label: "Internships" }] : []),
   ...(sections.certifications ? [{ id: "certifications", label: "Certifications" }] : []),
   { id: "contact", label: "Contact" },
 ];
@@ -36,9 +37,8 @@ export default function Navbar({ theme, toggleTheme }) {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-colors duration-300 ${
-        scrolled ? "bg-bg-elevated/85 backdrop-blur-md border-b border-border" : "bg-transparent"
-      }`}
+      className={`fixed top-0 inset-x-0 z-50 transition-colors duration-300 ${scrolled ? "bg-bg-elevated/85 backdrop-blur-md border-b border-border" : "bg-transparent"
+        }`}
     >
       <nav className="max-w-content mx-auto px-4 md:px-6" aria-label="Primary">
         <div className="flex items-center h-16 gap-4">
@@ -64,9 +64,8 @@ export default function Navbar({ theme, toggleTheme }) {
                   <a
                     href={`#${id}`}
                     onClick={(e) => handleNavClick(e, id)}
-                    className={`relative z-10 block px-4 py-2 rounded-full font-sans text-sm transition-colors whitespace-nowrap ${
-                      isActive ? "text-bg font-medium" : "text-muted hover:text-text"
-                    }`}
+                    className={`relative z-10 block px-4 py-2 rounded-full font-sans text-sm transition-colors whitespace-nowrap ${isActive ? "text-bg font-medium" : "text-muted hover:text-text"
+                      }`}
                   >
                     {label}
                   </a>
@@ -113,9 +112,8 @@ export default function Navbar({ theme, toggleTheme }) {
                   <a
                     href={`#${id}`}
                     onClick={(e) => handleNavClick(e, id)}
-                    className={`block py-3 font-sans text-sm border-b border-border/60 last:border-b-0 ${
-                      activeId === id ? "text-accent font-medium" : "text-muted"
-                    }`}
+                    className={`block py-3 font-sans text-sm border-b border-border/60 last:border-b-0 ${activeId === id ? "text-accent font-medium" : "text-muted"
+                      }`}
                   >
                     {label}
                   </a>

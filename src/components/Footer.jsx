@@ -6,6 +6,7 @@ const NAV = [
   { id: "about", label: "About" },
   ...(sections.resume ? [{ id: "resume", label: "Resume" }] : []),
   { id: "projects", label: "Projects" },
+  ...(sections.internships ? [{ id: "internships", label: "Internships" }] : []),
   ...(sections.certifications ? [{ id: "certifications", label: "Certifications" }] : []),
   { id: "contact", label: "Contact" },
 ];

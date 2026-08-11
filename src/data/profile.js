@@ -4,7 +4,6 @@
 export const profile = {
   name: "Durga Prasad Chintapalli",
   title: "Aspiring Data Analyst & Full-Stack Developer",
-  tagline: "YOUR_TAGLINE",
   location: "Visakhapatnam",
   availability: "Open to new-grad roles", // e.g. "Open to new-grad roles"
 

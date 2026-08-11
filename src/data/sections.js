@@ -5,5 +5,6 @@ export const sections = {
   skills: true,
   experience: true,
   resume: true,
+  internships: true,
   certifications: true,
 };
