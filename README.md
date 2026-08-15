@@ -26,7 +26,7 @@ tabs (`about.jsx`, `projects.jsx`, ...).
 ## Tech Stack
 
 - React 18 + Vite
-- JavaScript (no TypeScript)
+- JavaScript
 - Tailwind CSS
 - Framer Motion
 - Lucide React icons
