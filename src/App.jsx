@@ -17,7 +17,7 @@ export default function App() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <div className="min-h-screen bg-bg text-text">
+    <div className="min-h-screen bg-transparent text-text">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <main>
         <Hero />
