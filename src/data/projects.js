@@ -1,6 +1,3 @@
-// Add one object per project. Leave github/liveDemo as "" to hide that button —
-// the UI hides links automatically instead of showing a dead one.
-
 export const projectCategories = [
   "All",
   "Web Development",
@@ -11,7 +8,6 @@ export const projectCategories = [
   "Mobile",
   "Other",
 ];
-
 export const projects = [
   {
     title: "AI-sql-assistant",
@@ -51,6 +47,27 @@ export const projects = [
         "Add/edit/delete expense entries with categories",
         "Visual spending breakdown using Chart.js (pie/bar charts)",
         "Responsive dashboard for tracking expenses in real time",
+      ],
+    },
+  },
+  {
+    title: "Indian Banking Transaction Analytics Dashboard",
+    description: "A Power BI dashboard analyzing 5.5L+ Indian banking transactions to monitor success/failure rates, channel performance, and fraud risk.",
+    image: "/assets/projects/project-3.png",
+    technologies: ["Power BI", "DAX", "SQL", "Power Query"],
+    category: "Data",
+    github: "https://github.com/prasadchinthapalli09/indian-banking-transaction-analytics-dashboard",
+    liveDemo: "",
+    featured: true,
+    details: {
+      problem: "Banks processing UPI, IMPS, NEFT, and RTGS transactions need to quickly spot which channels drive the most failures and where fraud risk is concentrated — but raw transaction logs don't answer those questions on their own.",
+      solution: "Built a 3-page interactive Power BI report with a modeled data schema and custom DAX measures to track transaction volume, failure patterns by channel, and fraud risk by transaction type and merchant category, turning raw logs into decision-ready insights.",
+      features: [
+        "Overview page with KPIs for total transactions, value, fraud rate, and failure rate, plus monthly trend and account-type breakdowns",
+        "Channel & status analysis identifying which channels (Mobile App, Web, ATM, POS) drive the most failed transaction value",
+        "Fraud & risk analysis page showing fraud rate by transaction type, merchant category risk, and a repeat-fraud customer funnel",
+        "Custom DAX measures for failure rate, fraud rate, and average transaction vs. fraud value",
+        "Interactive slicers (Year, Account Type, Channel, Transaction Type) across all pages"
       ],
     },
   },
