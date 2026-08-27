@@ -50,7 +50,7 @@ export default function InternshipCard({ internship, index = 0 }) {
                 )}
             </div>
 
-            <p className="text-muted text-sm mt-3 leading-relaxed flex-1">{description}</p>
+            <p className="text-muted text-base mt-3 leading-relaxed flex-1">{description}</p>
 
             {skills?.length > 0 && (
                 <div className="flex flex-wrap gap-1.5 mt-4">
