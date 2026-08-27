@@ -39,7 +39,7 @@ export default function ProjectCard({ project, onViewDetails }) {
       <div className="p-5 flex flex-col flex-1">
         <p className="eyebrow mb-1">{project.category}</p>
         <h3 className="font-display text-base font-semibold text-text">{title}</h3>
-        <p className="text-muted text-sm mt-2 leading-relaxed flex-1">{description}</p>
+        <p className="text-muted text-base mt-2 leading-relaxed flex-1">{description}</p>
 
         <div className="flex flex-wrap gap-1.5 mt-4">
           {technologies.map((t) => (
