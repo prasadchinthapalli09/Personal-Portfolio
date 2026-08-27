@@ -57,8 +57,7 @@ export default function ContactForm() {
   };
 
   const fieldClass = (hasError) =>
-    `w-full rounded-md bg-bg-elevated border px-4 py-3 text-sm text-text placeholder:text-muted/60 focus:border-accent outline-none transition-colors ${
-      hasError ? "border-red-400" : "border-border"
+    `w-full rounded-md bg-bg-elevated border px-4 py-3 text-base text-text placeholder:text-muted/60 focus:border-accent outline-none transition-colors ${hasError ? "border-red-400" : "border-border"
     }`;
 
   return (
