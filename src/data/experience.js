@@ -21,6 +21,6 @@ export const experience = [
 
 export const highlights = [
   { label: "experience", value: "Fresher" },
-  { label: "Projects", value: "2" },
+  { label: "Projects", value: "3" },
   { label: "Certifications", value: "7" },
 ];
