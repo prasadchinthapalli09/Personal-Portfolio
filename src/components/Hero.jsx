@@ -95,7 +95,7 @@ export default function Hero() {
   const reducedMotion = useReducedMotion();
 
   return (
-    <section id="top" className="relative pt-32 pb-20 md:pt-40 md:pb-28 px-4 md:px-6 overflow-hidden">
+    <section id="top" className="relative pt-32 pb-20 md:pt-28 md:pb-20 px-4 md:px-6 overflow-hidden">
       {/* ambient drifting glow, quiet enough not to compete with the panel */}
       <div
         className="absolute -top-24 -right-24 w-[440px] h-[440px] rounded-full blur-3xl -z-10 animate-drift"
