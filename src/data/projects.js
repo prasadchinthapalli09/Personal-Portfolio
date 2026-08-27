@@ -56,7 +56,7 @@ export const projects = [
     image: "/assets/projects/project-3.png",
     technologies: ["Power BI", "DAX", "SQL", "Power Query"],
     category: "Data",
-    github: "https://github.com/prasadchinthapalli09/indian-banking-transaction-analytics-dashboard",
+    github: "https://github.com/prasadchinthapalli09/Indian-Banking-Transaction-Analytics-Dashboard",
     liveDemo: "",
     featured: true,
     details: {
