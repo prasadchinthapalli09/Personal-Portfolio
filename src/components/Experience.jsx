@@ -23,7 +23,7 @@ export default function Experience() {
           <p className="text-sm text-accent-2 font-mono mt-0.5">
             {item.organization} · {item.location}
           </p>
-          <p className="text-muted text-sm mt-2 leading-relaxed">{item.description}</p>
+          <p className="text-muted text-base mt-2 leading-relaxed">{item.description}</p>
           <span className="inline-block mt-2 font-mono text-[11px] px-2 py-0.5 rounded-full border border-border text-muted">
             {item.type}
           </span>
