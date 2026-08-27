@@ -21,7 +21,7 @@ export default {
         mono: ["'JetBrains Mono'", "ui-monospace", "SFMono-Regular", "monospace"],
       },
       maxWidth: {
-        content: "1180px",
+        content: "1280px",
       },
       boxShadow: {
         glow: "0 0 0 1px var(--accent-a20), 0 20px 60px -20px var(--accent-a40)",
