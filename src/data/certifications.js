@@ -61,7 +61,7 @@ export const certifications = [
     certificateUrl: "/assets/certificates/certificate-7.jpg",
     credentialUrl: "https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs113/Course/NPTEL24CS113S76590010103856335.pdf",
     logo: "/assets/images/certificate-logo-7.png",
-  }
+  },
   {
     title: "Claude Academy: Building with the Claude API",
     issuer: "Claude Academy",
@@ -70,5 +70,5 @@ export const certifications = [
     certificateUrl: "/assets/certificates/certificate-8.jpg",
     credentialUrl: "https://academy.claude.com/verify/7f094dfc74a550a282f34c8d0c19cc55",
     logo: "/assets/images/certificate-logo-8.png",
-  }
+  },
 ];
