@@ -73,7 +73,7 @@ export const certifications = [
   },
   {
     title: "Internet of Things & Embedded systems",
-    issuer: "Claude Academy",
+    issuer: "Centre of Excellence in Maritime and Shipbuilding",
     date: "November 2026",
     credentialId: "AP/VTZ/4002/08-2022/0182",
     certificateUrl: "/assets/certificates/certificate-9.jpg",
