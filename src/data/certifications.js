@@ -71,4 +71,13 @@ export const certifications = [
     credentialUrl: "https://academy.claude.com/verify/7f094dfc74a550a282f34c8d0c19cc55",
     logo: "/assets/images/certificate-logo-8.png",
   },
+  {
+    title: "Internet of Things & Embedded systems",
+    issuer: "Claude Academy",
+    date: "November 2026",
+    credentialId: "AP/VTZ/4002/08-2022/0182",
+    certificateUrl: "/assets/certificates/certificate-9.jpg",
+    credentialUrl: "",
+    logo: "/assets/images/certificate-logo-9.png",
+  },
 ];
