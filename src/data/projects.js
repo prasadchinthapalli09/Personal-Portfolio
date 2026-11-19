@@ -57,7 +57,7 @@ export const projects = [
     technologies: ["Power BI", "DAX", "SQL", "Power Query"],
     category: "Data",
     github: "https://github.com/prasadchinthapalli09/Indian-Banking-Transaction-Analytics-Dashboard",
-    liveDemo: "",
+    liveDemo: "https://drive.google.com/file/d/1V_2GInnXOEH9Oy3rCBIQKxTTrtLnp0c0/view?usp=drive_link",
     featured: true,
     details: {
       problem: "Banks processing UPI, IMPS, NEFT, and RTGS transactions need to quickly spot which channels drive the most failures and where fraud risk is concentrated — but raw transaction logs don't answer those questions on their own.",
